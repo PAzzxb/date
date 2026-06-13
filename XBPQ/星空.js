@@ -1,0 +1,30 @@
+var rule = {
+
+    title: '星空影院',
+    host: 'https://www.xkytv.cc/',
+    url: 'vod/fypage/fyclass/0/0/0/0/0/0',
+    searchUrl: '/public/auto/search1.html?keyword=**&page=fypage',
+    searchable: 2,
+    quickSearch: 0,
+    filterable: 0,
+    headers: {
+        'User-Agent': 'MOBILE_UA',
+    },
+    class_name: '电影&剧集&综艺&动漫',
+    class_url: '77&78&79&80',
+    play_parse: true,
+    lazy: "js:\n  let html = request(input);\n  let hconf = html.match(/r player_.*?=(.*?)</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    url = unescape(base64Decode(url));\n  }\n  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    input = {\n      parse: 0,\n      jx: 0,\n      url: url,\n    };\n  } else {\n    input = url && url.startsWith('http') && tellIsJx(url) ? {parse:0,jx:1,url:url}:input;\n  }",
+    limit: 6,
+    double: true,
+    推荐: '.myci-vodlist.clearfix;li;.title&&Text;.lazyload&&data-original;.pic-text&&Text;a&&href',
+    一级: '.myci-vodlist li;.title&&Text;.lazyload&&data-original;.pic-text&&Text;a&&href',
+    二级: {
+        title: '.myci-content__detail .title--span&&Text;.myci-content__detail p.data:eq(0)&&a&&Text',
+        img: '.myci-content__thumb .lazyload&&data-original',
+        desc: '.myci-content__detail p.data:eq(0)&&Text;.myci-content__detail p.data:eq(0)&&a:eq(2)&&Text;.myci-content__detail p.data:eq(0)&&a:eq(1)&&Text;.myci-content__detail p.data:eq(1)&&Text;.myci-content__detail p.data:eq(2)&&Text',
+        content: '.desc_info&&Text',
+        tabs: '.myci-pannel__head h3',
+        lists: '.myci-content__playlist:eq(#id) li',
+    },
+    搜索: '.myci-vodlist__media li;.title&&Text;.lazyload&&data-original;.pic-text&&Text;a&&href',
+}

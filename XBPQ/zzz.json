@@ -1,0 +1,16 @@
+{
+        "主页url":"https://www.77yskp.com/",
+        "分类url":"https://www.77yskp.com/mov/{cateId}/page/{catePg}/",
+        "分类": "电影$1#剧集$2",
+        "数组":"<li class=\"mo-paxs-5px mo-pamd-10px&&</li>",
+        "标题":"<a class=\"mo-situ-name mo-fsxs-14px mo-coxs-center mo-comd-left mo-wrap-arow\" href=\"*\">&&</a>",
+        "副标题":"class=\"mo-situ-tips mo-fsxs-12px mo-bord-round mo-back-mojia\">&&</span>",
+        "图片":"data-original=\"&&\"",
+        "链接":"href=\"&&\"",
+    "播放二次截取":"class=\"bd&&</div>",
+        "播放数组":"<ul&&</ul>",
+        "播放列表":"<a&&</a>",
+        "播放标题":">&&</a>",
+    "线路二次截取":"<h2&&</h2>",
+        "线路数组":"<span&&</span>"
+      }
