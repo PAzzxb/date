@@ -2,7 +2,7 @@
     "engine_name": "JSON API & Proxy Engine",
     "version": "2.0.0 (No-Token & Obfuscated Version)",
     "description": "直接访问接口将返回系统所有可用的 API 动作及调用方法指南。",
-    "base_url": "https://tiktok.xvideos4.tk/api.php",
+    "base_url": "https://raw.githubusercontent.com/PAzzxb/date/refs/heads/main/api.php",
     "endpoints": [
         {
             "action": "list",
