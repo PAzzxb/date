@@ -10,7 +10,7 @@
             "name": "豆瓣丨首页",
             "type": 3,
             "api": "csp_Douban",
-            "ext"："./json/douban.json",
+            "ext": "./json/douban.json",
             "jar": "./测试.jar"
         },
         {
