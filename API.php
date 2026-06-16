@@ -3,7 +3,7 @@
     "wallpaper": "https://wp.upx8.com/api.php",
     "warningText": "tvbox提示语",
     "logo": "./logo.gif",
-    "notice": "每次提示",
+    "notice": "",
     "sites": [
         {
             "key": "豆瓣",
