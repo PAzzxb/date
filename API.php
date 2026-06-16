@@ -3126,14 +3126,7 @@
         "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
     ],
     "lives": [
-        {
-            "name": "肥羊itv",
-            "type": 0,
-            "url": "https://live.ottiptv.cc/iptv.m3u?userid=6782621524&sign=626b31d97921686782ae5830e12d6b6512c17b10b16eaf0af7442c236c2447c7bf90e5103ef3f1962d2e425508d2f979208c2d9565cd6d0d9452704fec888bc6ba6b24d69bfd87&auth_token=e251c4e0a8140730f17926da0df0cdc1",
-            "playerType": 2,
-            "timeout": 10,
-            "ua": "okHttp/Mod-1.5.0.0"
-        },
+        
         {
             "name": "虎牙一起看",
             "type": 0,
