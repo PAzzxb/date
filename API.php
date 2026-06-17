@@ -11,7 +11,7 @@
             "type": 3,
             "api": "csp_Douban",
             "ext":"./json/douban.json",
-            "jar": "./测试.jar"
+            "jar": "./备份.jar"
         },
         {
             "name": "LEO| 弹幕",
