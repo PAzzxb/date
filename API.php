@@ -3280,6 +3280,41 @@
             "url": "Web"
         },
         {
+            "name": "极速4k",
+            "type": 1,
+            "url": "http://miyao1.wk57.top/iJKHhGGigLJGiH666.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        },            
+        {
             "name": "虾米",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",
