@@ -461,7 +461,7 @@
         },
         {
             "key": "飞飞",
-            "name": "🎶〖飞飞丨影视』",
+            "name": "🎶〖飞飞影视』",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -499,7 +499,7 @@
         },
         {
             "key": "峥嵘",
-            "name": "峥嵘影视』",
+            "name": "🎶〖峥嵘影视』",
             "type": 3,
             "api": "csp_AppFox",
             "ext": "https://api2026.hboqy.cn"
@@ -1636,7 +1636,7 @@
         },
         {
             "key": "cjzy_360资源",
-            "name": "🎶〖360丨影视』",
+            "name": "🎶〖360丨資源』",
             "type": 1,
             "api": "https://360zy.com/api.php/provide/vod",
             "playurl": "json:https://jx.behds.cn/qcb.php?url=",
@@ -2074,12 +2074,6 @@
             }
         },
         {
-            "key": "三六零",
-            "name": "♫『三六零影视』",
-            "type": 3,
-            "api": "csp_SP360"
-        },
-        {
             "key": "腾讯视频",
             "name": "🎶〖腾讯視頻』",
             "type": 3,
@@ -2115,13 +2109,7 @@
             "ext": "./js/西瓜.js"
         },
     
-        {
-            "key": "金牌影视",
-            "name": "🎶〖金牌影视』",
-            "type": 3,
-            "api": "csp_Jpys",
-            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-        },
+ 
         {
             "key": "云播影视",
             "name": "🎶〖云播影视』",
