@@ -51,7 +51,7 @@
         },
         {
             "key": "py_资源管理PY",
-            "name": "🎶〖☀️资源管理』",
+            "name": "🎶〖资源管理』",
             "api": "./py1/资源管理.py",
             "filterable": 1,
             "quickSearch": 1,
