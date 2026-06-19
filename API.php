@@ -10,8 +10,7 @@
             "name": "🎶〖豆瓣首页』",
             "type": 3,
             "api": "csp_Douban",
-            "ext":"./json/douban.json",
-            "jar": "./备份.jar"
+            "jar": "./jar/v.php"
         },
         {
             "name": "🎶〖弹丨幕』",
