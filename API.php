@@ -3532,7 +3532,13 @@
         "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
     ],
     "lives": [
-        
+                {
+            "name": "央卫直播",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+            "playerType": 2,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+        },
         {
             "name": "虎牙一起看",
             "type": 0,
