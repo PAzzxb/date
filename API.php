@@ -3536,7 +3536,7 @@
             "name": "央卫直播",
             "type": 0,
             "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-            "playerType": 2,
+            "playerType": 1,
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
         },
         {
