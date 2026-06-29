@@ -1,8 +1,6 @@
 {
     "spider": "./spider.jar",
     "wallpaper": "https://wp.upx8.com/api.php",
-    "warningText": "tvbox提示语",
-    "logo": "./logo.gif",
     "notice": "",
     "sites": [
         {
@@ -13,8 +11,8 @@
             "jar": "./jar/v.php"
         },
         {
-            "name": "🎶〖弹丨幕』",
-            "key": "leo 弹幕",
+            "name": "🎶〖弹幕丨配置』",
+            "key": "leo",
             "type": 3,
             "api": "csp_DanmakuSpider",
             "searchable": 1,
@@ -28,7 +26,7 @@
         },
         {
             "key": "配置中心",
-            "name": "🎶〖配置中心』",
+            "name": "🎶〖网盘配置』",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
@@ -38,6 +36,12 @@
                 "type": "rect",
                 "ratio": 1.597
             }
+        },
+        {
+            "key": "本地",
+            "name": "🎶〖本地视频』",
+            "type": 3,
+            "api": "csp_LocalFile"
         },
         {
             "key": "电视直播",
@@ -107,12 +111,6 @@
             "type": 3
         },
         {
-            "key": "本地",
-            "name": "🎶〖本地视频』",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
-        {
             "key": "zbxdb",
             "name": "🎶〖在线点播』",
             "type": 3,
@@ -147,26 +145,6 @@
             "type": 3,
             "api": "http://zizhuyun.top/yuan/jy/lib/16.js",
             "ext": "http://zizhuyun.top/yuan/jy/lib/2400.js"
-        },
-        {
-            "key": "hhh",
-            "name": "🎬truvaze📲",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "./py/truvaze.py",
-            "order_num": 5,
-            "ext": ""
-        },
-        {
-            "key": "XMVideo",
-            "name": "🎶〖涩涩熊猫』",
-            "type": 3,
-            "api": "csp_XMVideo",
-            "searchable": 1,
-            "filterable": 1,
-            "jar": "./jar/182.jar"
         },
         {
             "key": "jianpian",
