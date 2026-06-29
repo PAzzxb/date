@@ -7,7 +7,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🎶〖豆瓣首页』[首页]",
+            "name": "🎶〖豆瓣首页』",
             "type": 3,
             "api": "csp_Douban",
             "jar": "./jar/v.php"
